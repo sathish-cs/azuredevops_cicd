@@ -17,8 +17,8 @@ This is a simple Python web application built using Flask. It deploy the code to
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-repo/helloworld-python-app.git
-    cd helloworld-python-app
+    git clone https://github.com/sathish-cs/azuredevops_cicd.git
+    cd azuredevops_cicd
     ```
 
 2. Create a virtual environment and install dependencies:
