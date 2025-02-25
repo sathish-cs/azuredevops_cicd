@@ -50,6 +50,6 @@ stages:
 
     - task: AzureWebApp@1 # Deploy the app to Azure Web App
       inputs:
-        azureSubscription: 'STRATUS' # Change this to your Service Connection
-        appName: 'azwebapp' # Azure Web App name
+        azureSubscription: 'service-connection' # Change this to your Service Connection
+        appName: 'azappNAME' # Azure Web App name
         package: '$(System.ArtifactsDirectory)/artifact/app/helloworld_app.zip'
