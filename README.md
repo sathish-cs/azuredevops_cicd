@@ -45,6 +45,8 @@ This is a simple Python web application built using Flask. It deploy the code to
 
 This project includes an Azure DevOps YAML pipeline for automating deployment to Azure App Service.
 
+`webapp-pipeline.yml` file is responsible to build and deploy the Hello World app to the Azure App Service. 
+
 ### Pipeline Stages
 
 #### 1. Build
